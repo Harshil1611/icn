@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Font+Awesome+6+Free:wght@400&display=swap");
+@font-face {
+  font-family: "Monotxt";
+  src: url("../public/Monotxt.ttf");
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-monotxt: Monotxt;
+  --font-font-awesome-6-free: "Font Awesome 6 Free";
+
+  /* font sizes */
+  --font-size-base: 24px;
+  --font-size-lg: 35px;
+  --font-size-xl: 50px;
+  --font-size-2xl: 135px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-darkslategray-100: #363636;
+  --color-darkslategray-200: #323232;
+  --color-dimgray: #656565;
+}
