@@ -5,7 +5,7 @@
   margin:0;
   padding: 0%;
 }
-.desktop-1{
+.desktop-2{
 
   background:url(./signup.jpg) no-repeat;
   background-size: cover;
@@ -24,7 +24,7 @@
   
 }
 
-.desktop-1 h2{
+.desktop-2 h2{
   color: #363636;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   font-size: 100px;
@@ -59,7 +59,7 @@
 
 
 .box input[type="text" i]{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     border-bottom: 5px solid #363636;
     position: absolute;
     left: 2vh;
@@ -166,6 +166,26 @@
   position: absolute;
   top: 43vh;
   left:19vh;
+}
+
+#checkbox{
+  position:absolute;
+  margin-right: 500px;
+  /* top: -20px; */
+  /* left: -40vh; */
+  /* width: 100%; */
+ /* display: inline-block; */
+ top: 34vh; 
+
+}
+
+#label-checkbox{
+  /* border: 20px solid red; */
+  padding: 20px;
+  font-size: 2vh;
+  left: 34vh;
+  position: absolute;
+   top: 34vh; 
 }
 
 

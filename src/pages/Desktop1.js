@@ -17,10 +17,8 @@ const Desktop1 = () => {
                 <h1 className="txt-forgotpassword">Forgot Password</h1>
                 <button className="btn-signin" type="submit">SIGN IN</button>
           </div>\
-            <h1 className="txt-or">Signup </h1>
+            <h1 className="txt-or" >Register </h1>
           <div className="login-methods">
-          <img className="svg-google" alt="" src="../facebook-f.svg" />
-          <img className="svg-google" alt="" src="../github.svg" />
           <img className="svg-google" alt="" src="../google.svg" />
           </div>
     </div>

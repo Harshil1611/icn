@@ -74,8 +74,8 @@
 .svg-user{
   float: right;
   position: absolute;
-  left: 1859px;
-  top: 35vh;
+  left: 1942px;
+  top: 40vh;
   /* border-bottom: 5px solid grey;  */
   height: 4%;
   /* width:auto; */
@@ -161,12 +161,14 @@ top:1100px
 
 .svg-google{
   padding: 0vh 1vh;
-  margin:2vh 5vh ;
+  margin:2vh 20vh ;
+  
+  align-items: center;
 }
 
 .svg-google:hover{
   padding: 0vh 1vh;
-  margin:2vh 5vh ;
+  margin:2vh 20vh ;
   cursor: pointer;
 }
 

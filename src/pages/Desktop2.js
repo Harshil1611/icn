@@ -2,7 +2,7 @@ import "./Desktop2.css";
 
 const Desktop2 = () => {
   return (
-    <div className="desktop-1">
+    <div className="desktop-2">
           <img className="gif-Logo" src="../CLAP1.gif"></img>
           <h2>Enter Your Details</h2>
           <img className="svg-user" alt="" src="../user.svg" />
@@ -15,7 +15,8 @@ const Desktop2 = () => {
                 <input type="email" name="email" id="email" placeholder="Enter your Login id" ></input>
                 <input type="password" name="password" id="password-0" placeholder="Enter password" ></input>
                 <input type="password" name="password" id="password-1" placeholder="Confirm password" ></input>
-               
+                <input type="checkbox" id="checkbox"></input>
+                <label for="checkbox" id="label-checkbox"> I accept all terms and conditions</label>
                 <button className="btn-signin" type="submit">SIGN IN</button>
           </div>\
          
