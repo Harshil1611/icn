@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Desktop1 from "./pages/Desktop1";
 import Desktop2 from "./pages/Desktop2";
-import PheyeClosedBold from "./pages/PheyeClosedBold";
+
 import { useEffect } from "react";
 
 function App() {
@@ -33,10 +33,7 @@ function App() {
         title = "";
         metaDescription = "";
         break;
-      case "/pheyeclosedbold":
-        title = "";
-        metaDescription = "";
-        break;
+      
     }
 
     if (title) {
@@ -58,8 +55,6 @@ function App() {
       <Route path="/" element={<Desktop1 />} />
 
       <Route path="/desktop-2" element={<Desktop2 />} />
-
-      <Route path="/pheyeclosedbold" element={<PheyeClosedBold />} />
     </Routes>
   );
 }
